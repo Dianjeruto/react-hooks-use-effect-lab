@@ -21,6 +21,7 @@ function Question({ question, onAnswered }) {
         return (
           <button key={answer} onClick={() => handleAnswer(isCorrect)}>
             {answer}
+            click me
           </button>
         );
       })}
